@@ -1,0 +1,19 @@
+{
+  "name": "generator-kx-cmpt",
+  "version": "0.1.0",
+  "description": "creates js, styl and html file for usual component",
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "main": "index.js",
+  "author": "Adara Belaya",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "change-case": "^3.0.0",
+    "yeoman-generator": "^0.24.1"
+  }
+}
