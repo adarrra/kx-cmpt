@@ -1,6 +1,6 @@
 /*
-* Copyright (C) 2016 Synesis LLC. All rights reserved.
-* Author <%=author%> <<%=mail%>>, Synesis LLC www.synesis.ru.
+* Copyright (C) <%=year%> <%=company%>. All rights reserved.
+* Author <%=author%> <<%=mail%>>, <%=company%> <%=companySite%>.
 */
 import angular from 'angular';
 import mod from '<%=path%>/module';

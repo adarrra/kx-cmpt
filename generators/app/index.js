@@ -25,7 +25,10 @@ module.exports = generators.Base.extend({
         }]).then(function(props) {
             this.props = props;
             this.props.usedName = changeCase.upperCaseFirst(changeCase.camelCase(this.props.name));
-            this.props.fsName = changeCase.snakeCase(this.props.name)
+            this.props.fsName = changeCase.snakeCase(this.props.name);
+            this.props.year = new Date().getFullYear();
+            this.props.company = 'Synesis LLC';
+            this.props.companySite = 'www.synesis.ru';
         }.bind(this));
     },
     writing: function() {
